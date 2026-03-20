@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/app", "destination": "/app.html" },
+    { "source": "/([a-z]{2})/app", "destination": "/$1/app.html" },
+    { "source": "/help", "destination": "/help.html" },
+    { "source": "/([a-z]{2})/help", "destination": "/$1/help.html" },
+    { "source": "/embed", "destination": "/embed.html" },
+    { "source": "/([a-z]{2})/embed", "destination": "/$1/embed.html" },
+    { "source": "/(.*)", "destination": "/404.html" }
+  ]
+}
